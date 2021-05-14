@@ -24,7 +24,7 @@ from pyrogram import Client
 @errors
 async def oynat(_, message: Message):
 
-    lel = await message.reply(f"**{bn} :-** 🔄 İşlem alındı ...")
+    lel = await message.reply(f"**{bn} :-** 🔄 İşleme alındı ...")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
     hell_pic = PLAY_PIC
